@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض الصور | موني ستور Moony Store</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">موني ستور | Moony Store</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="about.html">من نحن</a></li>
+                <li><a href="gallery.html" class="active">معرض الصور</a></li>
+                <li><a href="products.html">المنتجات</a></li>
+                <li><a href="reviews.html">آراء العملاء</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+                
+            </ul>
+            <div class="menu-icon" id="menu-icon">&#9776;</div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="gallery-hero">
+        <div class="container">
+            <h1>معرض الصور</h1>
+            <p>تصفح صور منتجاتنا المميزة في تصنيفات متعددة وعيش تجربة تسوق بصرية رائعة مع موني ستور.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Filters -->
+    <section class="gallery-filter-section">
+        <div class="container">
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="crochet">منتجات كروشيه</button>
+                <button class="filter-btn" data-filter="decor">ديكور منزلي</button>
+                <button class="filter-btn" data-filter="gifts">هدايا يدوية</button>
+                <button class="filter-btn" data-filter="accessories">اكسسوارات</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-section">
+        <div class="gallery-container">
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- مثال صور (استبدل الصور بصورك الحقيقية لاحقاً) -->
+                <div class="gallery-item" data-category="crochet">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="كروشيه 1">
+                    <div class="item-caption">دمية كروشيه</div>
+                </div>
+                <div class="gallery-item" data-category="crochet">
+                    <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="كروشيه 2">
+                    <div class="item-caption">حقيبة كروشيه</div>
+                </div>
+                <div class="gallery-item" data-category="decor">
+                    <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="ديكور 1">
+                    <div class="item-caption">ديكور جداري</div>
+                </div>
+                <div class="gallery-item" data-category="gifts">
+                    <img src="https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?auto=format&fit=crop&w=400&q=80" alt="هدية 1">
+                    <div class="item-caption">هدية يدوية خاصة</div>
+                </div>
+                <div class="gallery-item" data-category="accessories">
+                    <img src="https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80" alt="اكسسوارات 1">
+                    <div class="item-caption">سوار يدوي</div>
+                </div>
+                <div class="gallery-item" data-category="decor">
+                    <img src="https://images.unsplash.com/photo-1449247613801-ab06418e2861?auto=format&fit=crop&w=400&q=80" alt="ديكور 2">
+                    <div class="item-caption">مزهريات منزلية</div>
+                </div>
+                <div class="gallery-item" data-category="gifts">
+                    <img src="https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=400&q=80" alt="هدية 2">
+                    <div class="item-caption">علبة هدايا</div>
+                </div>
+                <div class="gallery-item" data-category="crochet">
+                    <img src="https://images.unsplash.com/photo-1455656678494-4d1b5f3e7ad3?auto=format&fit=crop&w=400&q=80" alt="كروشيه 3">
+                    <div class="item-caption">اكسسوار كروشيه</div>
+                </div>
+                <div class="gallery-item" data-category="accessories">
+                    <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="اكسسوارات 2">
+                    <div class="item-caption">حلق يدوي</div>
+                </div>
+                <!-- أضف المزيد من الصور والتصنيفات كما تريد -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">موني ستور | Moony Store</div>
+            <div class="footer-links">
+                <a href="index.html">الرئيسية</a>
+                <a href="about.html">من نحن</a>
+                <a href="gallery.html">معرض الصور</a>
+                <a href="products.html">المنتجات</a>
+                <a href="reviews.html">آراء العملاء</a>
+                <a href="contact.html">تواصل معنا</a>
+                
+            </div>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/" target="_blank"><img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram"></a>
+                <a href="#"><img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook"></a>
+                <a href="https://wa.me/201234567890" target="_blank"><img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp"></a>
+            </div>
+            <div class="footer-copy">
+                &copy; 2025 جميع الحقوق محفوظة. تصميم <span class="designer"><a href="https://ziadhagagytech.github.io/portfolio/" style="color: white;">Ziad Hagagy</a></span>
+            </div>
+        </div>
+    </footer>
+    <script src="gallery.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

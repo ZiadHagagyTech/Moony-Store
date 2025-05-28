@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المنتجات | موني ستور Moony Store</title>
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">موني ستور | Moony Store</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="about.html">من نحن</a></li>
+                <li><a href="gallery.html">معرض الصور</a></li>
+                <li><a href="products.html" class="active">المنتجات</a></li>
+                <li><a href="./reviews.html">آراء العملاء</a></li>
+                <li><a href="./contact.html">تواصل معنا</a></li>
+            </ul>
+            <div class="menu-icon" id="menu-icon">&#9776;</div>
+        </div>
+    </nav>
+
+    <!-- Products Hero -->
+    <section class="products-hero">
+        <div class="container">
+            <h1>منتجاتنا</h1>
+            <p>تشكيلة واسعة من المنتجات اليدوية، الهدايا، العرائس، والديكوريشن بتصميمات فريدة وجودة عالية.</p>
+        </div>
+    </section>
+
+    <!-- Products Filter Tabs -->
+    <section class="products-tabs-section">
+        <div class="container">
+            <div class="products-tabs" id="productsTabs">
+                <button class="tab-btn active" data-category="all">الكل</button>
+                <button class="tab-btn" data-category="handmade">المنتجات اليدوية</button>
+                <button class="tab-btn" data-category="gifts">الهدايا</button>
+                <button class="tab-btn" data-category="dolls">منتجات العرائس</button>
+                <button class="tab-btn" data-category="decoration">الديكوريشن</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-list-section">
+        <div class="container">
+            <div class="products-grid" id="productsGrid">
+                <!-- منتجات يدوية -->
+                <div class="product-card" data-category="handmade">
+                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80" alt="منتج يدوي">
+                    <div class="product-info">
+                        <h3>حامل شموع من الخشب الطبيعي</h3>
+                        <p>تصميم يدوي فريد، مثالي للديكور وإضفاء أجواء دافئة.</p>
+                        <span class="product-price">120 جنيه</span>
+                    </div>
+                </div>
+                <div class="product-card" data-category="handmade">
+                    <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="منتج يدوي">
+                    <div class="product-info">
+                        <h3>سلة تخزين قطنية</h3>
+                        <p>مصنوعة يدويًا بخيوط القطن الملون، متعددة الاستخدامات.</p>
+                        <span class="product-price">95 جنيه</span>
+                    </div>
+                </div>
+
+                <!-- هدايا -->
+                <div class="product-card" data-category="gifts">
+                    <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=400&q=80" alt="هدية">
+                    <div class="product-info">
+                        <h3>صندوق هدايا مزخرف</h3>
+                        <p>تصميم أنيق مع إمكانية إضافة اسم أو عبارة خاصة.</p>
+                        <span class="product-price">85 جنيه</span>
+                    </div>
+                </div>
+                <div class="product-card" data-category="gifts">
+                    <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="هدية">
+                    <div class="product-info">
+                        <h3>برواز صور شخصي</h3>
+                        <p>برواز يدوي مع زخرفة حسب الطلب، هدية مميزة.</p>
+                        <span class="product-price">110 جنيه</span>
+                    </div>
+                </div>
+
+                <!-- منتجات العرائس -->
+                <div class="product-card" data-category="dolls">
+                    <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="عرائس">
+                    <div class="product-info">
+                        <h3>عرائس كروشيه صغيرة</h3>
+                        <p>عرائس محشوة من القطن مناسبة للأطفال والهدايا.</p>
+                        <span class="product-price">150 جنيه</span>
+                    </div>
+                </div>
+                <div class="product-card" data-category="dolls">
+                    <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=400&q=80" alt="عرائس">
+                    <div class="product-info">
+                        <h3>دمية قماش يدوية</h3>
+                        <p>مصنوعة من الأقمشة عالية الجودة بألوان زاهية.</p>
+                        <span class="product-price">170 جنيه</span>
+                    </div>
+                </div>
+
+                <!-- الديكوريشن -->
+                <div class="product-card" data-category="decoration">
+                    <img src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=400&q=80" alt="ديكور">
+                    <div class="product-info">
+                        <h3>لوحة حائط خشبية</h3>
+                        <p>تصميم يدوي مع نقوش فنية تناسب جميع الديكورات.</p>
+                        <span class="product-price">210 جنيه</span>
+                    </div>
+                </div>
+                <div class="product-card" data-category="decoration">
+                    <img src="https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?auto=format&fit=crop&w=400&q=80" alt="ديكور">
+                    <div class="product-info">
+                        <h3>مزهريات سيراميك ملونة</h3>
+                        <p>قطع ديكور رائعة لطاولة السفرة أو المعيشة.</p>
+                        <span class="product-price">130 جنيه</span>
+                    </div>
+                </div>
+
+                <!-- المزيد ... أضف المزيد حسب الحاجة بنفس الشكل مع data-category المناسب -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">موني ستور | Moony Store</div>
+            <div class="footer-links">
+                <a href="index.html">الرئيسية</a>
+                <a href="about.html">من نحن</a>
+                <a href="gallery.html">معرض الصور</a>
+                <a href="products.html">المنتجات</a>
+                <a href="./reviews.html">آراء العملاء</a>
+                <a href="./contact.html">تواصل معنا</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram"></a>
+                <a href="#"><img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook"></a>
+                <a href="#"><img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp"></a>
+            </div>
+            <div class="footer-copy">
+                &copy; 2025 جميع الحقوق محفوظة. تصميم <span class="designer"><a href="https://ziadhagagytech.github.io/portfolio/" style="color: white;">Ziad Hagagy</a></span>
+            </div>
+        </div>
+    </footer>
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
